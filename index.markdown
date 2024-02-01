@@ -12,8 +12,6 @@ This is my in development project for my sophomore year game project. I am the t
 - Did all the collision detection and resolution with spatial hashing
 - Multithreading and other optimizations on everything from collision to particles
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/54eiG_jT2_M" frameborder="0" allowfullscreen></iframe>
-Screenshot for performance numbers.
 ![Cosmic Cargo Screenshot](CosmicCargoScreenShot.png)
 
 
