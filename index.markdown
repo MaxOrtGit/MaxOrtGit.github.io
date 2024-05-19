@@ -9,8 +9,8 @@ This is my in development project for my sophomore year game project. I am the t
 - Serialization with Modern JSON for C++
 - Created a debug editor system that generates a GUI from the JSON of an entity while also allowing for overriding parts with lambdas
 - Built a library so Serialization, Editors, and Config/Saves can all be added in just two lines of code
-- Created a ship editor, turret editor, and
-- Made the tiled ship system to allow for easy ship creation and modification and turret placement
+- Created a variety of editors for the designers to use like a ship and turret editor
+- Made the tiled ship system to allow for easy ship creation, modification, and turret placement
 - Did the collision detection and resolution that supports both thousands projectiles and dozens of ships
 - Created particle system that can render millions of particles with textures at 60+ fps
 
