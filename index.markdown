@@ -3,18 +3,30 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 ---
 
+# Code Samples
+## [C++26: Reflection](https://github.com/MaxOrtGit/RandomStuff/blob/main/cpp/cpp26/Cpp26reflection/WorkingAttributerWithPrint.cpp)
+## [Python: Machine Learning](https://github.com/MaxOrtGit/ValorantEsportsAI/blob/main/EsportsAI.ipynb)
+
+
 # Cosmic Cargo
-This is my in development project for my sophomore year game project. I am the tech lead of my team of 8. The game is in C++ and uses a custom engine built on top of OpenGL. It is a space ship building battler. I built the core of the engine, most of the gameplay features, tools for the designers, optimizations, and coordination with the designers. Some of the notable things I did are:
+This is a Video Game I worked on for my sophomore year game project. I am the tech lead of a team of 8. The game is programmed in C++ and uses a custom engine built on top of OpenGL. It is a space ship building battler / roguelike. I built the core of the engine, most of the gameplay features like the ships and projectiles, editor tools, optimizations, and coordination with the designers. Some of the notable things I did are:
 - Created the entity component system the engine is built on
 - Serialization with Modern JSON for C++
-- Created a debug editor system that generates a GUI from the JSON of an entity while also allowing for overriding parts with lambdas
-- Built a library so Serialization, Editors, and Config/Saves can all be added in just two lines of code
+- Created a debug editor system that generates a GUI from the JSON of an entity while also allowing for overriding different aspects of the UI
+- Built a library so serialization, editors, and config / saves can all be added in just two lines of code
 - Created a variety of editors for the designers to use like a ship and turret editor
 - Made the tiled ship system to allow for easy ship creation, modification, and turret placement
 - Did the collision detection and resolution that supports both thousands projectiles and dozens of ships
-- Created particle system that can render millions of particles with textures at 60+ fps
+- Created particle system that can render thousands of particles with no performance drop and millions with 60+ fps
 
 <iframe width="560" height="315" src="https://youtube.com/embed/Fxgdbvw_ZZU" frameborder="0" allowfullscreen></iframe>
+
+# [Valorant Esports AI](https://github.com/MaxOrtGit/ValorantEsportsAI)
+This was a final project for a Machine Learning class. It uses data I collected from [vlr](https://www.vlr.gg/) about a team and it's players. The project both trains and tests a model to predict the outcome of a match. 
+- Uses a variety of Traditional Machine Learning models like Random Forest
+- Built with Python and uses Pandas, Numpy, and Scikit-learn for the ML and Selenium and BeautifulSoup for the web scraping
+- Achieved a 62% accuracy on the test data tying the accuracy of the betting sites I used for the data
+
 
 # [VCT Predictions Bot](https://github.com/MaxOrtGit/VCT-Predictions-Bot)
 This has been my personal project for the past 2 years. It is a Python discord bot made with Pycord for making fake bets on Valorant matches. 
