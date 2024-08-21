@@ -4,8 +4,8 @@
 ---
 
 # Code Samples
-## [C++26: Reflection](https://github.com/MaxOrtGit/RandomStuff/blob/main/cpp/cpp26/Cpp26reflection/WorkingAttributerWithPrint.cpp)
-## [Python: Machine Learning](https://github.com/MaxOrtGit/ValorantEsportsAI/blob/main/EsportsAI.ipynb)
+### [C++26: Reflection](https://github.com/MaxOrtGit/RandomStuff/blob/main/cpp/cpp26/Cpp26reflection/WorkingAttributerWithPrint.cpp)
+### [Python: Machine Learning](https://nbviewer.org/github/MaxOrtGit/ValorantEsportsAI/blob/main/EsportsAI.ipynb)
 
 
 # Cosmic Cargo
