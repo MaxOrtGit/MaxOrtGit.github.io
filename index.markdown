@@ -5,8 +5,9 @@
 
 # Code Samples
 ### [C++26: Reflection](https://github.com/MaxOrtGit/RandomStuff/blob/main/cpp/cpp26/Cpp26reflection/WorkingAttributerWithPrint.cpp)
+I created the project as more a proof of concept for an upcoming C++ refection feature. It aims to add an attribute like system to the language using refection and template arguments. This project uses attributes and CTAD for 
 ### [Python: Machine Learning](https://nbviewer.org/github/MaxOrtGit/ValorantEsportsAI/blob/main/EsportsAI.ipynb)
-
+This is the primary file in the Valorant Esports AI project detailed below.
 
 # Cosmic Cargo
 This is a Video Game I worked on for my sophomore year game project. I am the tech lead of a team of 8. The game is programmed in C++ and uses a custom engine built on top of OpenGL. It is a space ship building battler / roguelike. I built the core of the engine, most of the gameplay features like the ships and projectiles, editor tools, optimizations, and coordination with the designers. Some of the notable things I did are:
@@ -45,6 +46,4 @@ This was my second semester freshmen year game project. It was a team of 5. I co
 <iframe width="560" height="315" src="https://youtube.com/embed/BWCdsp8-rpM" frameborder="0" allowfullscreen></iframe>
 
 
-# Resume
-
-<a href="maxortgit.github.io/Files/MaxOrtmanResume.pdf" target="_blank">PDF.</a>
+# [Resume](https://maxortgit.github.io/Files/MaxOrtmanResume.pdf)
