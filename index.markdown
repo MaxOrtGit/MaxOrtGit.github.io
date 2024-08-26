@@ -43,3 +43,8 @@ This has been my personal project for the past 2 years. It is a Python discord b
 This was my second semester freshmen year game project. It was a team of 5. I convinced my team to take the opportunity to make the game in C++ instead of C so we were the only team using C++. The game is a puzzle game where you have to fit in machines in a small area to process foods. I made the machine system that allowed for easy creation of new machines with complicated layouts and multiple recipes. I also made the saving system.
 
 <iframe width="560" height="315" src="https://youtube.com/embed/BWCdsp8-rpM" frameborder="0" allowfullscreen></iframe>
+
+
+# Resume
+
+<a href="maxortgit.github.io/Files/MaxOrtmanResume.pdf" target="_blank">PDF.</a>
