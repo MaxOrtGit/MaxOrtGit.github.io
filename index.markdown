@@ -18,7 +18,7 @@ This is a Video Game I worked on for my sophomore year game project. I am the te
 - Created a variety of editors for the designers to use like a ship and turret editor
 - Made the tiled ship system to allow for easy ship creation, modification, and turret placement
 - Did the collision detection and resolution that supports both thousands projectiles and dozens of ships
-- Created particle system that can render thousands of particles with no performance drop and millions with 60+ fps
+- Created a particle system that can render thousands of particles with no performance drop and millions with 60+ fps
 
 <iframe width="560" height="315" src="https://youtube.com/embed/Fxgdbvw_ZZU" frameborder="0" allowfullscreen></iframe>
 
