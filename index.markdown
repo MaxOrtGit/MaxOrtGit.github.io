@@ -20,7 +20,7 @@ This is a Video Game I worked on for my sophomore year game project. I am the te
 - Did the collision detection and resolution that supports both thousands projectiles and dozens of ships
 - Created a particle system that can render thousands of particles with no performance drop and millions with 60+ fps
 
-<iframe width="560" height="315" src="https://youtu.be/RrCWfwklU7A" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtube.com/embed/RrCWfwklU7A" frameborder="0" allowfullscreen></iframe>
 
 # [Valorant Esports AI](https://github.com/MaxOrtGit/ValorantEsportsAI)
 This was a final project for a Machine Learning class. It uses data I collected from [vlr](https://www.vlr.gg/) about a team and it's players. The project both trains and tests a model to predict the outcome of a match. 
