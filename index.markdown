@@ -4,9 +4,10 @@
 ---
 
 # Code Samples
-### [C++26: Reflection](https://github.com/MaxOrtGit/RandomStuff/blob/main/cpp/cpp26/Cpp26reflection/WorkingAttributerWithPrint.cpp)
+### [C++26: Reflection extension for JSON for Modern C++ library](https://github.com/MaxOrtGit/RandomStuff/blob/main/cpp/cpp26/Cpp26reflection/AttributesModernJsonExtension.cpp)
+[Godbolt](https://godbolt.org/z/7zq1je6jT) link but because the proposals change so often it may not work. Output is in the github link. 
 I created the project as more a proof of concept for an upcoming C++ refection feature. It aims to add an attribute like system to the language using refection and template arguments. This project uses attributes and CTAD for 
-### [Python: Machine Learning](https://nbviewer.org/github/MaxOrtGit/ValorantEsportsAI/blob/main/EsportsAI.ipynb)
+### [Python: Machine Learning to predict esports games](https://nbviewer.org/github/MaxOrtGit/ValorantEsportsAI/blob/main/EsportsAI.ipynb)
 This is the primary file in the Valorant Esports AI project detailed below.
 
 # Cosmic Cargo
