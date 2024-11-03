@@ -10,7 +10,7 @@ I created the project as more a proof of concept for an upcoming C++ refection f
 ### [Python: Machine Learning to predict esports games](https://nbviewer.org/github/MaxOrtGit/ValorantEsportsAI/blob/main/EsportsAI.ipynb)
 This is the primary file in the Valorant Esports AI project detailed below.
 
-# Cosmic Cargo
+# [Cosmic Cargo](https://youtu.be/RrCWfwklU7A)
 This is a Video Game I worked on for my sophomore year game project. I am the tech lead of a team of 8. The game is programmed in C++ and uses a custom engine built on top of OpenGL. It is a space ship building battler / roguelike. I built the core of the engine, most of the gameplay features like the ships and projectiles, editor tools, optimizations, and coordination with the designers. Some of the notable things I did are:
 - Created the entity component system the engine is built on
 - Serialization with Modern JSON for C++
