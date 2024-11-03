@@ -21,7 +21,25 @@ This is a Video Game I worked on for my sophomore year game project. I am the te
 - Did the collision detection and resolution that supports both thousands projectiles and dozens of ships
 - Created a particle system that can render thousands of particles with no performance drop and millions with 60+ fps
 
+### Trailer
 <iframe width="560" height="315" src="https://youtube.com/embed/RrCWfwklU7A" frameborder="0" allowfullscreen></iframe>
+
+### Editor
+![Editor](Files/FullEditor.png)
+
+### Adding any object to editor
+The editor works by converting an object to JSON and generating a GUI from that JSON. \
+Below is adding a new component to the editor. \
+Because it works recursively the Texture inside is also in the interface. \
+For the image in the texture I add a button to open a file explorer.
+![Adding a component](Files/AddingComponent.png)
+
+### Creating a config / save
+For a config it is a pair of a name and a value. \
+As long as all the values are serializable they can be added to the config. \
+Used for both saves and settings. \
+Can also be edited in the editor.
+![Adding a config](Files/AddingConfig.png)
 
 # [Valorant Esports AI](https://github.com/MaxOrtGit/ValorantEsportsAI)
 This was a final project for a Machine Learning class. It uses data I collected from [vlr](https://www.vlr.gg/) about a team and it's players. The project both trains and tests a model to predict the outcome of a match. 
@@ -40,7 +58,7 @@ This has been my personal project for the past 2 years. It is a Python discord b
 - Has many other small features/details
 
 <iframe width="560" height="315" src="https://youtube.com/embed/TaXZVOtscqM" frameborder="0" allowfullscreen></iframe>
-  
+
 # Factory Puzzle Game
 This was my second semester freshmen year game project. It was a team of 5. I convinced my team to take the opportunity to make the game in C++ instead of C so we were the only team using C++. The game is a puzzle game where you have to fit in machines in a small area to process foods. I made the machine system that allowed for easy creation of new machines with complicated layouts and multiple recipes. I also made the saving system.
 
