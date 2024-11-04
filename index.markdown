@@ -27,7 +27,7 @@ This is a Video Game I worked on for my sophomore year game project. I am the te
 ### Editor
 Any Entity can be created, edited, and saved. \
 All configs can be edited in the editor. \
-Interfaces are created dynamically from the members of the objects and not coded.
+Interface is generated from the members of the objects and not hand coded.
 ![Editor](https://maxortgit.github.io/assets/FullEditor.png)
 
 ### Adding any object to editor
