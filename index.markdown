@@ -25,6 +25,9 @@ This is a Video Game I worked on for my sophomore year game project. I am the te
 <iframe width="560" height="315" src="https://youtube.com/embed/RrCWfwklU7A" frameborder="0" allowfullscreen></iframe>
 
 ### Editor
+Any Entity can be created, edited, and saved. \
+All configs can be edited in the editor. \
+Interfaces are created dynamically from the members of the objects and not coded.
 ![Editor](https://maxortgit.github.io/assets/FullEditor.png)
 
 ### Adding any object to editor
@@ -35,10 +38,10 @@ For the image in the texture I add a button to open a file explorer.
 ![Adding a component](https://maxortgit.github.io/assets/EditorSample.png)
 
 ### Creating a config / save
-For a config it is a pair of a name and a value. \
+All values in a config are a pair of a name and a value. \
 As long as all the values are serializable they can be added to the config. \
 Used for both saves and settings. \
-Can also be edited in the editor.
+File and editor interface are synced.
 ![Adding a config](https://maxortgit.github.io/assets/ConfigSample.png)
 
 # [Valorant Esports AI](https://github.com/MaxOrtGit/ValorantEsportsAI)
