@@ -10,14 +10,24 @@ I created the project as more of a proof of concept for an upcoming C++ reflecti
 ### [Python: Machine Learning to predict esports games](https://nbviewer.org/github/MaxOrtGit/ValorantEsportsAI/blob/main/EsportsAI.ipynb)
 This is the primary file in the Valorant Esports AI project detailed below.
 
-# [Code Friend](https://drive.google.com/file/d/130O7AJwsxGJ8wKpA7m0lJtsNVrEJKyXT/view?usp=sharing)
-Coding assistant that generates code and documentation using an LLM
-- Stores project details in a database for the LLM to reference
-- Generates code snippets using relevant functions/classes in context
-- Works with Local LLMs or OpenAI
-- Specialized agents for specific tasks
-- Supports centralized host allowing for different devices to work on the same project simultaneously
+# Training Robots
+For my senior project class I am training robots in Isaac Lab to perform complex tasks. The goal is to have a pipeline for training video game AI agents using reinforcement learning. The project is still it it's early stages but you can enjoy this video of robot dogs trained to run to as many targets as possible.
+
+<video width="560" height="315" controls>
+  <source src="{{ '/RobotsPointToPoint/vid.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+# Code Friend
+Coding assistant that generates code and documentation using an LLM. This was a project spanning 2 semesters where I was in a group of three. I implemented the core commands, defining the data flow and response logic for the LLM. I also focused on several other key areas:
+- Defined what should be stored in the database for the LLM to reference
+- Developed the logic for generating documentation and code snippets using relevant functions/classes gathered with TF-IDF
+- Built generalized interfaces allowing for seamless support for both Local LLMs or OpenAI
+- Created specialized agents for specific tasks
+- Implemented a centralized host allowing for different devices to work on the same project simultaneously
 - Parallelized requests to LLM for faster responses
+
+<iframe width="560" height="315" src="https://drive.google.com/file/d/130O7AJwsxGJ8wKpA7m0lJtsNVrEJKyXT/preview" frameborder="0" allowfullscreen></iframe>
 
 # [Cosmic Cargo](https://youtu.be/RrCWfwklU7A)
 [Steam Page](https://store.steampowered.com/app/4056230/Cosmic_Cargo)\
