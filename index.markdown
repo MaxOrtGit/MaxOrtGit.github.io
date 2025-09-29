@@ -14,7 +14,7 @@ This is the primary file in the Valorant Esports AI project detailed below.
 For my senior project class I am training robots in Isaac Lab to perform complex tasks. The goal is to have a pipeline for training video game AI agents using reinforcement learning. The project is still it it's early stages but you can enjoy this video of robot dogs trained to run to as many targets as possible.
 
 <video width="560" height="315" controls>
-  <source src="{{ '/RobotsPointToPoint/vid.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/Files/RobotsPointToPoint.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
