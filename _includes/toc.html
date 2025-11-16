@@ -1,0 +1,79 @@
+<div id="toc-container">
+  <strong>Contents</strong>
+  <ul id="toc"></ul>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const toc = document.getElementById("toc-container");
+
+  // Generate TOC from top-level headers (h1)
+  const headers = document.querySelectorAll("h1");
+  headers.forEach(h => {
+    if (!h.id) h.id = h.innerText.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+    a.href = "#" + h.id;
+    a.textContent = h.innerText;
+    li.appendChild(a);
+
+    if (h.dataset.desc) {
+      const small = document.createElement("small");
+      small.textContent = " – " + h.dataset.desc;
+      li.appendChild(small);
+    }
+
+    toc.querySelector("ul").appendChild(li);
+  });
+
+  // Mobile check
+  if (window.innerWidth <= 1200) {
+    // Find the header intro
+    const header = document.querySelector("#header_wrap .inner");
+    if (header) {
+      // Insert TOC right after the tagline
+      const tagline = document.getElementById("project_tagline");
+      if (tagline) {
+        tagline.insertAdjacentElement("afterend", toc);
+      }
+    }
+  }
+});
+</script>
+
+
+<style>
+/* Default TOC for desktop */
+#toc-container {
+  position: fixed;
+  left: 10px;
+  top: 80px;
+  width: 220px;
+  font-size: 0.9em;
+  padding: 10px;
+  background: #222;
+  border-radius: 8px;
+  color: #eee;
+  overflow-y: auto;
+}
+
+/* Hide TOC on small screens (mobile) */
+@media screen and (max-width: 1200px) {
+  #toc-container {
+    position: relative;   /* no longer fixed */
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin: 20px 0;      /* spacing above and below */
+  }
+}
+#toc-container a { color: #9cf; text-decoration: none; }
+#toc-container a:hover { text-decoration: underline; }
+
+video,
+iframe {
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+</style>
