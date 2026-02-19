@@ -8,32 +8,6 @@ I created the project as more of a proof of concept for an upcoming C++ reflecti
 ### [Python: Machine Learning to predict esports games](https://nbviewer.org/github/MaxOrtGit/ValorantEsportsAI/blob/main/EsportsAI.ipynb)
 This is the primary file in the Valorant Esports AI project detailed below.
 
-
-# Training Robots
-{: data-desc="Robotics RL" }
-
-For my senior project class I am training robots in Isaac Lab to perform complex tasks. The goal is to have a pipeline for training video game AI agents using reinforcement learning. The project is still it it's early stages but you can enjoy this video of robot spiders trained to run from target to target.
-
-<video width="560" height="315" controls>
-  <source src="{{ '/Files/RobotsPointToPoint.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-
-# Code Friend
-{: data-desc="LLM Tools" }
-
-Coding assistant that generates code and documentation using an LLM. This was a project spanning 2 semesters where I was in a group of three. I implemented the core commands, defining the data flow and response logic for the LLM. I also focused on several other key areas:
-- Defined what should be stored in the database for the LLM to reference
-- Developed the logic for generating documentation and code snippets using relevant functions/classes gathered with TF-IDF
-- Built generalized interfaces allowing for seamless support for both Local LLMs or OpenAI
-- Created specialized agents for specific tasks
-- Implemented a centralized host allowing for different devices to work on the same project simultaneously
-- Parallelized requests to LLM for faster responses
-
-<iframe width="560" height="315" src="https://drive.google.com/file/d/130O7AJwsxGJ8wKpA7m0lJtsNVrEJKyXT/preview" frameborder="0" allowfullscreen></iframe>
-
-
 # Cosmic Cargo
 {: data-desc="Game and Engine" }
 
@@ -71,6 +45,18 @@ Used for both saves and settings. \
 File and editor interface are synced.
 ![Adding a config](https://maxortgit.github.io/assets/ConfigSample.png)
 
+# Code Friend
+{: data-desc="LLM Tools" }
+
+Coding assistant that generates code and documentation using an LLM. This was a project spanning 2 semesters where I was in a group of three. I implemented the core commands, defining the data flow and response logic for the LLM. I also focused on several other key areas:
+- Defined what should be stored in the database for the LLM to reference
+- Developed the logic for generating documentation and code snippets using relevant functions/classes gathered with TF-IDF
+- Built generalized interfaces allowing for seamless support for both Local LLMs or OpenAI
+- Created specialized agents for specific tasks
+- Implemented a centralized host allowing for different devices to work on the same project simultaneously
+- Parallelized requests to LLM for faster responses
+
+<iframe width="560" height="315" src="https://drive.google.com/file/d/130O7AJwsxGJ8wKpA7m0lJtsNVrEJKyXT/preview" frameborder="0" allowfullscreen></iframe>
 
 # Valorant Esports AI
 {: data-desc="ML Model" }
