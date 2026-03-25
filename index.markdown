@@ -1,3 +1,8 @@
+<div class="top-links">
+	<a class="top-link-btn resume" href="https://maxortgit.github.io/Files/MaxOrtmanResume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+	<a class="top-link-btn linkedin" href="https://www.linkedin.com/in/max-ortman-b5805a194/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+</div>
+
 # Code Samples
 {: data-desc="C++ & ML" }
 
@@ -88,7 +93,3 @@ This was my second semester freshmen year game project. It was a team of 5. I co
 <iframe width="560" height="315" src="https://youtube.com/embed/BWCdsp8-rpM" frameborder="0" allowfullscreen></iframe>
 
 
-# Resume
-{: data-desc="PDF" }
-
-[PDF Resume](https://maxortgit.github.io/Files/MaxOrtmanResume.pdf)
